@@ -26,11 +26,11 @@ lhlord/
 `-- CHANGELOG.md
 ```
 
-### 当前功能
+## 当前功能
 
 - 炼丹系统V1.1实装 
 
-### 后端API
+## 后端API
 
 | 方法     | 路径                                      | 说明                    |
 | ------ | --------------------------------------- | --------------------- |
@@ -50,7 +50,7 @@ lhlord/
 | POST   | /api/debug/use                          | 切换调试数据库               |
 | POST   | /api/debug/query                        | SQL 调试(仅只读语句)         |
 
-### 本地启动
+## 本地启动
 
 确保MySQL正在运行, `lhlord` 库已按 [database/schema/init.sql](database/schema/init.sql) 建表并导入种子数据 
 
